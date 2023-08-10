@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100&display=swap');
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+.fw-400 {
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 24px 0; */
+    max-width: 1296px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    border-right: 1px solid #000;
+    padding: 24px 0;
+}
+.logo img {
+    width: 46px;
+    height: 80px;
+    background: #000;
+    display: block;
+    margin: 0 40px;
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+.link a {
+    /* margin: 0 16px; */
+}
+.link-item {
+    border-left: 1px solid #000;
+    margin: 51px 0;
+    width: 104px;
+    text-align: center;
+}
